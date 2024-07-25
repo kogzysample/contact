@@ -6,8 +6,8 @@
     <title>Contact Form</title>
     <style>
         body {
-            background-color: #000000;
-            color: #f4f4f9;
+            background-color: #000000; /* Black background */
+            color: #f4f4f9; /* White text */
             font-family: Helvetica, sans-serif;
             text-align: center;
         }
@@ -23,14 +23,14 @@
             font-size: 32px;
         }
         .header-logo a {
-            color: #f4f4f9;
+            color: #f4f4f9; /* White text */
             text-decoration: none;
         }
         .form-container {
             max-width: 400px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #000000;
+            background-color: #000000; /* Black background */
             border-radius: 8px;
         }
         .form-container h2 {
@@ -53,15 +53,18 @@
             border-radius: 4px;
         }
         .form-group input[type="submit"] {
-            background-color: #f4f4f9;
-            color: #000000;
+            background-color: #4C21E8; /* Button color */
+            color: #ffffff; /* White text */
             cursor: pointer;
             width: 100px;
             padding: 10px;
             border-radius: 4px;
+            font-weight: bold; /* Bold text */
+            display: inline-block; /* Align center */
+            margin-top: 10px; /* Space above the button */
         }
         .form-group input[type="submit"]:hover {
-            background-color: #d4d4d9;
+            background-color: #3b1baf; /* Button hover color */
         }
         .form-group span {
             color: red;
@@ -70,7 +73,7 @@
             margin-top: 20px;
         }
         .footer a {
-            color: #f4f4f9;
+            color: #f4f4f9; /* White text */
             text-decoration: none;
         }
     </style>
@@ -98,7 +101,7 @@
                 <label for="data_13">Company<span>*</span></label>
                 <input type="text" id="data_13" name="data_13" class="form-control"/>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="text-align: center;">
                 <input name="skip_Submit" value="Submit" type="submit"/>
             </div>
         </form>
